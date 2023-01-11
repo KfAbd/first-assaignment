@@ -114,7 +114,7 @@
 .fit-sec {
     width: 1140px;
     height: 300px;
-    background-image: url(../images/gradient1.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     margin: 0px 230px 130px;
 }
 
@@ -127,4 +127,63 @@
     font-size: 40px;
     color: #FFFFFF;
     padding-bottom: 24px;
+}
+
+/* about-us */
+.box {
+    margin: 0px 230px 130px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-description {
+    color: lightskyblue;
+    padding: 10px 100px 0px;
+    margin-bottom: 130px;
+}
+/* footer */
+.foo-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    gap: 331px;
+    background: #151414;
+}
+.fupa{
+    padding: 24px 0px;
+}
+.btn2{
+    background: #005FAC;
+border-radius: 8px;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+border: none;
+padding: 20px 36.02px;
+}
+.future, .subscribe h1{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+}
+.future p{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+}
+.email{
+    width: 325px;
+height: 64px;
+border: 3px solid white;
+background-color: #151414;
+border-radius: 7px;
+margin: 31px 0px 20px;
+}
+::placeholder{
+    font-weight: 400;
+font-size: 18px;
+color: #F3F3F3;
+padding: 21px 158px 22px 21px;
 }
