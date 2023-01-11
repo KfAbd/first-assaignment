@@ -9,7 +9,9 @@
     background-image: url(../images/banner/banner3.png);
     text-align: right;
     padding-right: 230px;
+    background-repeat: no-repeat;
 }
+
 .main-text {
     font-weight: 700;
     font-size: 65px;
@@ -17,6 +19,7 @@
     padding-top: 216px;
     padding-left: 845px;
 }
+
 .sub-text {
     padding-top: 24px;
     padding-bottom: 32px;
@@ -25,6 +28,7 @@
     font-size: 16px;
     color: #FFFFFF;
 }
+
 .btn {
     border: none;
     border-radius: 5px;
@@ -32,4 +36,95 @@
     padding: 21px 25px;
     font-weight: 600;
     font-size: 20px;
+}
+
+/* failures */
+.failures {
+    display: flex;
+    justify-content: space-between;
+    margin: 131px 322px 129.7px 206px;
+    gap: 87px;
+}
+
+.failure-list {
+    padding-top: 239px;
+    padding-bottom: 84.3px;
+}
+
+.failure-head {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 24px
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-bottom: 16px;
+}
+
+.li {
+    padding: 8px 0px;
+}
+
+.list {
+    list-style: none;
+}
+
+.plans {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #151414;
+}
+
+.overall-plan {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0px 250px;
+    padding-bottom: 130px;
+}
+
+.plan-1,
+.plan-2,
+.plan-3,
+.plan-4 {
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.plan-sub {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* fit-sec */
+.fit-sec {
+    width: 1140px;
+    height: 300px;
+    background-image: url(../images/gradient1.png);
+    margin: 0px 230px 130px;
+}
+
+.fit-img {
+    padding: 59px 617px 59px 64px;
+}
+
+.fit-head {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
 }
